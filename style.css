@@ -140,4 +140,33 @@
     border: 1px solid #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  
+  .Svarīgizināt{
+    position: absolute;
+    width: 346.12px;
+    height: 69.61px;
+    left: 217px;
+    top: 664px;
+    
+    mix-blend-mode: luminosity;
+
+    position: absolute;
+    width: 163px;
+    height: 28px;
+    left: 299px;
+    top: 684px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
