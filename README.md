@@ -1,7 +1,7 @@
 # Figma
 Projekta nosaukums - Ceļot Prieks
 
-Grupa - DP 2-3
+Grupa - DP 2-3 un DP 2-4
 
 Autori - Rinalds Ignatovičs,Artūrs Vaļuks,Deniss Jerošenko,Dmitrijs Kudrajasovs
 
