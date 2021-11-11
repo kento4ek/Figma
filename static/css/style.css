@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none; 
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+body {
+  position: relative;
+  width: 1920px;
+  height: 1082px;
+  overflow-y: scroll;
+        
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.content{
+  position: relative;
+  width: 50%;
+  margin-left: 0;
+  z-index: 2;
+}
+/* Background */
+.background{
+  position: relative;
+  background: url(../images/pragser-wildsee-1920x1080-lake-italy-europe-4k-20310.jpg) no-repeat;
+  height: 110vh;
+ 
+}
+.background--blur{
+  position: absolute;
+  background: url(../images/pragser-wildsee-1920x1080-lake-italy-europe-4k-20310.jpg) no-repeat;
+  filter: blur(10px);
+
+  width: 50%;
+  height: 100%;
+
+  z-index: 1;
+}
+/* Header */
+header{
+  margin: 0 15px;
+}
+.header__title{
+  text-transform: uppercase;
+}
+/* Main Content */
+.nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 260px;
+}
+.nav ul li{
+  margin-top: 90px;
+}
+/* footer */
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 80px 0 12px;
+}
+.footer__links a{
+  margin: 0 35 0;
+  width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .background {
+    mix-blend-mode: normal;
+    position: absolute;
+    
+    width: 50%;
+    height: 500px;
+    top: 4px;
+    
+  } */
+  
+  .rectangle1 {
+    position: absolute;
+    width: 960px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: #C4C4C4;
+    mix-blend-mode: normal;
+    opacity: 0.45;
+  }
+  .background2 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 4px;
+    
+
+    box-sizing: border-box;
+
+    
+  }
+
+
+
+  .logo {
+    position: absolute;
+    left: 163px;
+    top: 13px;
+    /* Ceļot prieks */
+
+    position: absolute;
+    width: 497px;
+    height: 76px;
+    left: 15px;
+    top: 168px;
+
+   font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp' on;
+
+    color: #000000;
+
+
+  }
+  
+  
+  /* Social Icons */
+  
+  .social-icons {
+    position: absolute;
+    width: 90px;
+    height: 82px;
+    left: 121px;
+    top: 979px;
+
+  }
+  
+  .facebooklogo{
+    position: absolute;
+    width: 95px;
+    height: 82px;
+    left: 105px;
+    top: -10px;
+  }
+
+  .instagramlogo{
+    position: absolute;
+    width: 75px;
+    height: 73px;
+    left: -7px;
+    top: -10px;
+  }
+
+  .twitterlogo{
+    position: absolute;
+    width: 77px;
+    height: 67px;
+    left: -121px;
+    top: -10px;
+  }
+ 
+  .Uzzinatvairāk{
+    position: absolute;
+    width: 183px;
+    height: 56px;
+    left: 284px;
+    top: 834px;
+    
+    mix-blend-mode: luminosity;
+    
+    
+    /* Uzzināt vairāk */
+    
+    position: absolute;
+    width: 183px;
+    height: 56px;
+    left: 284px;
+    top: 834px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    mix-blend-mode: luminosity;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .Svarīgizināt{
+    position: absolute;
+    width: 346.12px;
+    height: 69.61px;
+    left: 217px;
+    top: 664px;
+    
+    mix-blend-mode: luminosity;
+
+    position: absolute;
+    width: 163px;
+    height: 28px;
+    left: 299px;
+    top: 684px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
